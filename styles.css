@@ -42,6 +42,43 @@ body{
     
 }
 /* Header complete */
+/* main part start here!!!!!!! */
+/* section1 */
+.sec1{
+    display: flex;width: 1922px;justify-content: space-evenly;
+    height: 620px;border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);align-items: center;
+}
+.sec2-banner-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.red-text{
+    color: #E55473;
+}
+.sec1-banner-des{
+    width: 594px;color: rgba(39, 39, 39, 0.60);
+    text-align: center;margin-top: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.second-button{
+    border-radius: 8px;margin-left: 200px;margin-top: 32px;
+    background: #E55473;display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* sec1 complete */
+/* sec2 start */
+
+
+
 /* start of footer */
 .footer-sec{
     text-align: center;width: 1922px;
