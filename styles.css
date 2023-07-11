@@ -52,11 +52,11 @@ body{
 .my-part-title{
     color: #272727;margin-left: 350px;
     text-align: center;margin-top: 128px ;
-    font-size: 40px;
-    font-weight: 800;background-color: #E55473 ;
+    font-size: 40px;background-color: #E55473 ;
+    font-weight: 800;
 }
 .aboutus{
-    display: flex;align-items: center;margin-left: 350px;margin-top: 80px
+    display: flex;align-items: center;margin-left: 350px;margin-top: 80px;
 }
 .our-description{
     margin-left: 24px;
@@ -129,7 +129,29 @@ body{
     line-height: 35px
 }
 /* bonus section ends here */
+/* extra part */
+.extra{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05); ;width: 1440px;
+    height: 320px; align-items: center;margin: auto;
+    text-align: center;
+}
+.extra-part-images{
+    display: flex;justify-content: space-around;padding-top: 86px;
+}
+.ei{
+    width: 88px;
+    height: 88px;
+}
+.ei-name{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
 
+}
+
+/* extra part ends here */
 /* section1 */
 .sec1{
     display: flex;width: 1922px;justify-content: space-evenly;
