@@ -43,9 +43,43 @@ body{
 }
 /* Header complete */
 /* main part start here!!!!!!! */
+
+/*Start with my part  */
+.my-part{
+    width: 1600px;height: 800px;align-items: center;
+    
+}
+.my-part-title{
+    color: #272727;margin-left: 350px;
+    text-align: center;margin-top: 128px ;
+    font-size: 40px;
+    font-weight: 800;background-color: #E55473 ;
+}
+.aboutus{
+    display: flex;align-items: center;margin-left: 350px;margin-top: 80px
+}
+.our-description{
+    margin-left: 24px;
+}
+.aboutus-title{
+    color: #272727;font-size: 30px;
+    font-weight: 900;
+}
+.aboutus-des{
+    font-size: 18px;
+    font-weight: 200; text-align: justify;
+}
+.my-part-button{
+    background-color:  #E55473;
+    color: #FFF;font-size: 18px;
+    padding: 20px 40px;border-radius: 10px ;
+}
+/* my part ends here */
+
+
 /* bonus sec starts */
 .bonus-section{
-    align-items: center;text-align: center;margin-top: 128px;
+    align-items: center;text-align: center;
 }
 
 .bonus-sec-title{
@@ -94,7 +128,7 @@ body{
     font-weight: 700;
     line-height: 35px
 }
-
+/* bonus section ends here */
 
 /* section1 */
 .sec1{
@@ -102,7 +136,7 @@ body{
     height: 620px;border-radius: 8px;margin-top: 128px;
     background: rgba(229, 84, 115, 0.05);align-items: center;
 }
-.sec2-banner-title{
+.sec1-banner-title{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
