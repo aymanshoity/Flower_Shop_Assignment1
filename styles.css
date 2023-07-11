@@ -199,7 +199,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-
+./
 }
 .sec2-image{
     display: flex;justify-content: space-between;margin: 48px 240px 128px 240px;
@@ -207,7 +207,7 @@ body{
 /* sec2 ends here */
 /* start of sec3 */
 .sec3{
-    background-image: url('Flower Asset/Rectangle 9.png');border-radius: 8px;
+    background-image: url('./Flower Asset/Rectangle 9.png');border-radius: 8px;
     width: 1400px;height: 449px; align-items: center;margin: auto;
     
     
