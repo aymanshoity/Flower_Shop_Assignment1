@@ -11,7 +11,7 @@ body{
 
 }
 .banner1{
-    margin-left: 100px;
+    margin-left: 240px;
 }
 .banner-heading{
     
@@ -38,7 +38,7 @@ body{
 .banner-image{
     width: 635px;
     height: 800px;
-    margin: 50px 240px 0px 350px;
+    margin: 50px 240px 0px 150px;
     
 }
 /* Header complete */
