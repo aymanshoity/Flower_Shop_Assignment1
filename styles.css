@@ -46,7 +46,7 @@ body{
 /* section1 */
 .sec1{
     display: flex;width: 1922px;justify-content: space-evenly;
-    height: 620px;border-radius: 8px;
+    height: 620px;border-radius: 8px;margin-top: 128px;
     background: rgba(229, 84, 115, 0.05);align-items: center;
 }
 .sec2-banner-title{
@@ -76,13 +76,72 @@ body{
 }
 /* sec1 complete */
 /* sec2 start */
+.sec2{
+    align-items: center;text-align: center;margin-top: 128px;
+}
+.sec2-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.sec2-des{
+    width: 594px;color: rgba(39, 39, 39, 0.60);padding-left: 663px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.sec2-image{
+    display: flex;justify-content: space-between;margin: 48px 240px 128px 240px;
+}
+/* sec2 ends here */
+/* start of sec3 */
+.sec3{
+    background-image: url('Flower Asset/Rectangle 9.png');border-radius: 8px;
+    width: 1400px;height: 449px; align-items: center;margin: auto;
+    
+    
+}
+.sec3-banner{
+    padding-top: 80px;
+    text-align: center;
+}
+.sec3-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;margin-bottom: 0px;
+}
+.sec3-des{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;margin-bottom: 48px;
+}
+.sec3-form{
+    width: 700px;
+    height: 64px;border-radius: 8px;
+    background: #FFF;color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+.third-button{
+    width: 150px;
+    height: 68px;border-radius: 8px;
+    background: #E55473;color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+
 
 
 
 /* start of footer */
 .footer-sec{
     text-align: center;width: 1922px;
-    height: 449px;background: #111010;
+    height: 449px;background: #111010;margin-top: 128px;
 }
 .footer-title{
     color: #E55473;
